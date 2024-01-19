@@ -18,13 +18,32 @@ header{
     font-weight:bold;
     display: flex;
     justify-content: space-between;
+    max-height: 30px;
+  
+}
+.menu{
+    color: white; 
+    padding: 5px;
+   
 }
 .menu>a{
     display: none;
+    color: aliceblue;
 }
+.menu:hover>a{
+    display: block;
+    background-color: #1d1f21;
+    border-radius: 5px;
+    padding: 3px;
+}
+
 .menu>a:hover{
-    display:block;
+    background-color: orangered;
+    padding: 5px;
+    transition: 0.5s;
+    border-radius: 5px;
 }
+
 .boxes{
 display: grid;
 grid-template-columns: repeat(3, 1fr) ;
