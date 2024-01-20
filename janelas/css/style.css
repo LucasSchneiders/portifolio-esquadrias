@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: url(../imagens/fundo.jpg);
+    background: url(/imagens/fundo.jpg);
     background-size:cover;
     background-repeat: no-repeat;
 
@@ -78,31 +78,23 @@ justify-content: center;
     margin: 10px auto;
     /* filter: drop-shadow(2px 2px 2px #000000); */
 }
-.box_janela{
+.box_janela01{
     height: 300px;
     width: 300px;
-    background: url(../imagens/janelas/janelas.jpeg);
+    background: url("/imagens/janelas/janelas.jpeg");
     background-position: center center;
     background-size: cover;
 }
 
-
-.box_portoes{
+.box_janela02{
     
     height: 300px;
     width:300px;
-    background: url("../imagens/portoes/portoes_(1).jpg");
+    background: url("/imagens/janelas/janelas.jpg");
     background-position: center center;
     background-size: cover;
 }
-.box_lixeira{
-     
-    height: 300px;
-    width:300px;
-    background: url("../imagens/lixeira/lixeira\ \(1\).jpg");
-    background-position: center center;
-    background-size: cover;
-}
+
 
 .box > img{
     max-width: 500px;
@@ -137,6 +129,7 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    vertical-align: bottom;
 }
 
 .link-footer{
