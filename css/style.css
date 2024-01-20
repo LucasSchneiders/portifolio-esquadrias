@@ -19,7 +19,7 @@ header{
     display: flex;
     justify-content: space-between;
     max-height: 30px;
-  
+
 }
 .menu{
     color: white; 
@@ -29,14 +29,16 @@ header{
 .menu>a{
     display: none;
     color: aliceblue;
+   
 }
 .menu:hover>a{
     display: block;
     background-color: #1d1f21;
     border-radius: 5px;
-    padding: 3px;
+    padding: 3px; 
+    filter: drop-shadow(2px 2px 1px #000000);
+    
 }
-
 .menu>a:hover{
     background-color: orangered;
     padding: 5px;
@@ -74,7 +76,7 @@ justify-content: center;
     max-width: 500px;
     text-align: center;
     margin: 10px auto;
-    filter: drop-shadow(2px 2px 2px #000000);
+    /* filter: drop-shadow(2px 2px 2px #000000); */
 }
 .box_janela{
     height: 300px;
@@ -116,7 +118,7 @@ a:hover{
     color: whitesmoke;
     margin-top:-10px; 
     padding:3px;
-    filter: drop-shadow(2px 2px 2px #000000);
+    /* filter: drop-shadow(2px 2px 2px #000000); */
  font-weight: bold;
     text-align: center !important;
     border-radius:0px 0px 5px 5px;
