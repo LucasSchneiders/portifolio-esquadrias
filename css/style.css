@@ -104,6 +104,33 @@ justify-content: center;
     background-size: cover;
 }
 
+.box_portas{
+     
+    height: 300px;
+    width:300px;
+    background: url("../imagens/portas/porta\ \(1\).jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.box_grades{
+     
+    height: 300px;
+    width:300px;
+    background: url("../imagens/grades/grades.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.box_escadas{
+     
+    height: 300px;
+    width:300px;
+    background: url("../imagens/escada/pequena\ escada.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
 .box > img{
     max-width: 500px;
 }
